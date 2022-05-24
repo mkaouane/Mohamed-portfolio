@@ -2,7 +2,7 @@ import './Portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/jinflow.PNG'
 import IMG3 from '../../assets/gain.png'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/tcsgaming.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -13,6 +13,16 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className={"container portfolio__container"}>
+                <article className={"portfolio__item"}>
+                    <div className={"portfolio__item-image"}>
+                        <img src={IMG4} alt={''}/>
+                    </div>
+                    <h3>E-commerce Full Stack</h3>
+                    <div className={"portfolio__item-cta"}>
+                        {/* <a href={"https://github.com"} className={'btn'} target={'_blank'}>Github</a> */}
+                        <a href={"https://ecommerce-next-red.vercel.app/"} className={'btn btn-primary'} target={"_blank"}>Live Demo</a>
+                    </div>
+                </article>
                 <article className={"portfolio__item"}>
                     <div className={"portfolio__item-image"}>
                         <img src={IMG1} alt={''}/>
